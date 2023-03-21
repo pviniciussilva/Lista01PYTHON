@@ -1,5 +1,5 @@
 #9. Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius.
-#ºC = 5 * ((ºF-32) / 9).
+#ºC = 5 * ((ºF-32) / 9)
 #entrada
 temperatura_fahrenheit = float(input('Temperatura em Fahrenheit: '))
 
