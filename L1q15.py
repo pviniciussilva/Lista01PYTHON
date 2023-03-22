@@ -16,7 +16,7 @@ salario_hora = float(input('Digite quando voce ganha por hora: '))
 hora_trabalho = float(input('Quantas horas voce trabalha? '))
 
 #processamento
-salario_bruto = salario_hora * hora_trabalho * 30
+salario_bruto = salario_hora * hora_trabalho 
 
 imposto_de_renda = salario_bruto - (11/100 * salario_bruto)
 
@@ -24,7 +24,7 @@ INSS = salario_bruto - (8/100 * salario_bruto)
 
 sindicato = salario_bruto - (5/100 * salario_bruto)
 
-salario_liquido = salario_bruto - ((11/100 * salario_bruto)+ (8/100 * salario_bruto) + (5/100 * salario_bruto))
+salario_liquido = salario_bruto - ((11/100 * salario_bruto) + (8/100 * salario_bruto) + (5/100 * salario_bruto))
 
 #saída
 print('+ Salário Bruto: R${:.2f}'.format(salario_bruto))

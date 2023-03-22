@@ -10,5 +10,5 @@ homens = (72.7*altura) - 58
 mulheres = (62.1*altura) - 44.7
 
 #saída
-print('O peso ideal para homens é: {}'.format(homens))
-print('O peso ideal para mulheres é: {}'.format(mulheres))
+print('O peso ideal para homens é: {:.2f}'.format(homens))
+print('O peso ideal para mulheres é: {:.2f}'.format(mulheres))
